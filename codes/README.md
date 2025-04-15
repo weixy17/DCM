@@ -18,6 +18,8 @@ For more requirements for the proposed KAN-based model, please refer to https://
 
 Dataset can be found in ./data.mat, which is a struct format includes "quantitative_indexes" and "labels". "quantitative_indexes" contains a 48*13 matrix. Each row represents 13 quantitative indexes for a participant. The 13 quantitative indexes are ∆MD, ∆MA, ∆MDia, ∆MT, ∆MV, sex, age at surgery, symptom duration, preoperative mJOA score, preoperative APD, preoperative W, preoperative APD/W, and preoperative cross-sectional area respectively. "labels" is a binary matrix of 0 or 1 in the form of 48*1, representing whether the participant achieve a favorable neurological recovery. Exactly, 1 refers to favorable recovery and 0 for unfavorable recovery. 
 
+./test_idx.txt contains 4 rows, each row represents a fold of the four-fold cross-validation as mentioned in the paper. Each row contains 12 numbers, representing the participant number (row index of the 48*x matrix in ./data.mat) in the validation dataset for every fold. The remaining 36 participants are divided into training dataset.
+
 ## Pipeline
 
 - 1. To test the KAN-based model with 5 microvascular indexes and 8 clinical indexes as inputs, run classification_KAN_MicroandCli.py
