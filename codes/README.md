@@ -13,7 +13,7 @@ This repository includes:
 - Codes for Kolmogorov-Arnold Network (KAN) based prediction model using Python and Pytorch
 - Pretrained models.
 
-Code has been tested with Python 3.9 and MXNet 1.10.1.
+Code has been tested with Python 3.9 and Pytorch 1.10.1.
 For more requirements for the proposed KAN-based model, please refer to https://github.com/KindXiaoming/pykan.
 
 ## Datasets
