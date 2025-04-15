@@ -1,8 +1,11 @@
 ## Introduction
 
 Objectives: The mechanism of neurological recovery after surgical decompression is still unclear for degenerative cervical myelopathy (DCM). This study aims to analyze the relationship between microvasculature in the postdecompressive spinal cord and neurological recovery and further design a prediction model of recovery. 
+
 Materials & Methods: This retrospective study analyzed data from a prospectively enrolled cohort of patients with DCM who underwent surgical decompression from May 2023 to May 2024 at a single center. Intraoperative US ultrafast Doppler imaging was performed to evaluate microvasculature of postdecompressive spinal cords. Differences in five microvascular indexes between postdecompressive spinal cords and normal ones were calculated for each participant. All participants were followed up for 6 months to obtain modified Japanese Orthopedic Association (mJOA) scores. Participants were divided into favorable and unfavorable recovery groups based on a threshold of 50% for the recovery rate of mJOA scores. The Mann-Whitney U test compared microvascular indexes between the two groups. Kolmogorov-Arnold Network was further introduced to predict neurological recovery based on the proposed microvascular indexes.
+
 Results: 48 participants (median age, 59 years [IQR, 54–66 years]; 36 males) were included. 37 participants had a favorable recovery. All five microvascular indexes were associated with neurological recovery (all p < 0.05). The proposed prediction model achieves an accuracy of 94% (45 of 48) and an area under the receiver operating characteristic curve (AUC) of 0.98 (95% CI: 0.90, 1.00). 
+
 Conclusion: Microvasculature of postdecompressive spinal cords is associated with neurological recovery and the proposed model can effectively predict neurological recovery.
 
 This repository includes:
